@@ -17,7 +17,7 @@ function App() {
   
       async function fetchData(){
         try {
-          const counte = await fetch("https://interview-8e4c5-default-rtdb.firebaseio.com/front-end.json",{7318019088: +value});
+          const counte = await fetch("https://interview-8e4c5-default-rtdb.firebaseio.com/front-end.json",{8178109255: +value});
           setLoading (false);
         } catch (error){
           setLoading(false);
