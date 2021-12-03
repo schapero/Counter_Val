@@ -69,7 +69,7 @@ function App() {
   useEffect(() => {
     async function counteri(){
       try{
-        const co = await fetch("https://interview-8e4c5-default-rtdb.firebaseio.com/front-end/7318019088.json")
+        const co = await fetch("https://interview-8e4c5-default-rtdb.firebaseio.com/front-end/8178109255.json")
         const data = co.data;
         if (data && data < maxValue) setCounter(data);
         else setCounter(1);
